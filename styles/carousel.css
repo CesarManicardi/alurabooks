@@ -76,3 +76,61 @@ text-decoration: none;
 .card__stars-image{
 margin: 0.5em 0;
 }
+
+@media screen and (min-width: 1024px){
+.carousel__title{
+  font-size: 1.625;
+}
+
+.swiper-pagination{
+  margin: 2em 0 3em 0;
+}
+
+.swiper{
+  width: 60%;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  display: block;
+  top: 60%;
+}
+
+.card{
+  width: 40%;
+  margin: 2em auto;
+}
+}
+
+@media screen and (min-width: 1728px){
+.carousel__container{
+  display: flex;
+  margin: 0 20vw 3em 20vw;
+  align-items: center;
+}
+
+.swiper-pagination{
+  margin: 1em 0;
+}
+
+.swiper{
+  width: 50%;
+}
+
+.description__title{
+  font-size: 2em;
+}
+
+.description__text{
+  font-size: 1em;
+}
+
+.description{
+  margin-right: 2em;
+}
+
+.card{
+  width: 60%;
+  margin-left: 3em;
+}
+}

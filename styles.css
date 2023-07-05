@@ -11,7 +11,11 @@
   --color-orange: #EB9B00;
   --blue-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
   --blue-color: #002F52;
+  --black-color: #000000;
+  --grey-color: #474646;
+  --light-grey-color: #858585;
   --main-font: 'Poppins', sans-serif;
+  --second-font: 'Josefin Sans', sans-serif;
 }
 
 body{
